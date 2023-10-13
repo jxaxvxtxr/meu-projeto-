@@ -1,0 +1,26 @@
+/* adicionar uma margem superior no corpo para evitar que o card-header fique muito próximo */
+
+/* definir a cor de fundo e borda dos cards */
+.card {
+  background-color: #f8f9fa9a;
+  border: none;
+  margin-top: 20px;
+}
+
+/* aplicar o efeito de hover no card-body */
+.card-body:hover {
+  background-color: #a3b1ccd0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* tornar os cards responsivos */
+@media (max-width: 767px) {
+  .navbar-light {
+    margin-top: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
